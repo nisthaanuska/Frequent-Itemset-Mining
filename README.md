@@ -5,8 +5,11 @@ This project provides an algorithm to compress a transactional dataset using fre
 
 # Approach
 Frequent Itemset Mining: <br> Utilizes algorithms like Apriori to identify itemsets that frequently occur together in transactions. <br>
+<br>
 Mapping Creation: <br> Maps frequent itemsets to unique identifiers to minimize storage. <br>
+<br>
 Compression: <br> Replaces frequent itemsets in the dataset with their mapped identifiers to create a compressed version. <br>
+<br>
 Decompression: <br> Uses the mapping to reconstruct the original dataset from the compressed version. <br>
 
 # Case Scenario 1
