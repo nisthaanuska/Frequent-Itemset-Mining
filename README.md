@@ -1,5 +1,14 @@
 # Frequent-Itemset-Mining
 
+# Overview
+This project provides an algorithm to compress a transactional dataset using frequent itemset mining. By creating mappings for frequent itemsets, we aim to reduce the size of the dataset while retaining the ability to reconstruct the original dataset exactly (lossless compression).
+
+# Approach
+Frequent Itemset Mining: Utilizes algorithms like Apriori to identify itemsets that frequently occur together in transactions.
+Mapping Creation: Maps frequent itemsets to unique identifiers to minimize storage.
+Compression: Replaces frequent itemsets in the dataset with their mapped identifiers to create a compressed version.
+Decompression: Uses the mapping to reconstruct the original dataset from the compressed version.
+
 # Case Scenario 1
 # Dataset: small.dat <br>
 ![WhatsApp Image 2024-09-03 at 22 54 55_fbf2449b](https://github.com/user-attachments/assets/a47e5a0e-78f2-437a-b360-5e283818f636)
